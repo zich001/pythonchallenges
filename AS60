@@ -1,0 +1,12 @@
+Array = []
+n = int(input('n'))
+m = int(input('m'))
+
+for i in range(n):
+    Array.append([])
+    for j in range(m):
+
+        if (i+j) % 2 == 0:
+            Array[i].append('.')
+        else:
+            Array[i].append('*')
